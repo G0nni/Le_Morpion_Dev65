@@ -19,6 +19,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="246dp"
+            android:layout_height="253dp"
+            android:src="@drawable/logo_white_backgroundmoingrand" />
+
         <EditText
             android:id="@+id/etSEmailAddress"
             android:layout_width="match_parent"

@@ -9,11 +9,11 @@
     tools:context=".views.MorpionActivity">
 
 
-    <Button
-        android:id="@+id/BtnSignOut_Morpion"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Déconnexion" />
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/logo_white_backgroundmoingrand" />
 
     <TextView
         android:id="@+id/Et_Joueur"
@@ -39,11 +39,11 @@
             android:id="@+id/btn1"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:background="@color/white"
             android:textColor="@android:color/background_dark"
             android:textSize="80sp"
             app:layout_column="0"
-            android:background="@drawable/border"
-            app:layout_row="0"/>
+            app:layout_row="0" />
         <Button
             android:id="@+id/btn2"
             android:layout_width="100dp"
@@ -111,9 +111,15 @@
 
     <Button
         android:id="@+id/btnReset"
-        android:layout_width="match_parent"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
-        android:text="Reset"
-        android:onClick="reset"/>
+        android:onClick="reset"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/BtnSignOut_Morpion"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion" />
 
 </LinearLayout>
