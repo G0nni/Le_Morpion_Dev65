@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902534735792",
+    "project_id": "kotlinprojectcrosserragros",
+    "storage_bucket": "kotlinprojectcrosserragros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902534735792:android:cfe6648bbd51840adc5875",
+        "android_client_info": {
+          "package_name": "com.Groupe1.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902534735792-lnekt2e4m632crgb0kcnlvs4c60cja6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW6yqydTtj3z4TbPINShMcmjKp7hAl2QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902534735792-lnekt2e4m632crgb0kcnlvs4c60cja6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
